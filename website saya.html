@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Penyimpanan Data Arduino</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Website Penyimpanan Coding Arduino</h1>
+        <form id="dataForm">
+            <label for="nameInput">Nama Kode:</label>
+            <input type="text" id="nameInput" class="input-field" required>
+            <label for="dataInput">Masukkan Coding Arduino:</label>
+            <textarea id="dataInput" class="input-field" rows="10" disabled required></textarea>
+            <button type="submit" disabled>Simpan Kode</button>
+        </form>
+        <div id="dataList">
+            <h2>Kode Tersimpan:</h2>
+            <ul id="dataItems"></ul>
+        </div>
+        <footer>
+            <p>@copyright 2024: Muhammd Luthfi Khoirullah</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
